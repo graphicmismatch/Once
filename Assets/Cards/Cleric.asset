@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c92c42aab4cda47928df2171b873e1, type: 3}
+  m_Name: Cleric
+  m_EditorClassIdentifier: 
+  CardName: The Cleric
+  canUntrap: 1
+  lockpickChance: 0
+  baseHealth: 30
+  baseAttack: 10
+  critChance: 20
+  ability:
+    burnChance: 0
+    burnTurns: 0
+    poisonChance: 0
+    poisonTurns: 0
+    heal: 20
+    damage: 0
+  description: The Cleric channels power from a higher power. His ability heals the
+    most damaged card by 20%.
+  mugShot: {fileID: 21300000, guid: e0da50aa5a53e0f45b506bbecfa795d1, type: 3}
+  cardVariant: {fileID: 21300000, guid: 4de33cfd95a301148b8ac86549756c6d, type: 3}
